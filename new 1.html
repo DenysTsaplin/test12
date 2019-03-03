@@ -1,0 +1,17 @@
+<script>
+ var userName = prompt('Кто пришел?', "");
+ if (userName == 'Админ'){
+  var pass = prompt('Пароль?', "");
+  if (pass == 'Властелин колец'){
+     alert('Добро пожаловать');
+   }else if (pass == null){
+     alert('Вход отменен!');
+   }else {
+     alert('Я вас не знаю');
+   }
+ }else if (userName == null){
+    alert('Вход отменен');
+ }else {
+    alert('я вас не знаю!');
+ }
+</script>
